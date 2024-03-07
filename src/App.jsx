@@ -1,8 +1,9 @@
 import './App.css'
+import { Footerwithmap } from './components/Footerwithmap';
 
 import Header from './components/Header'
 import Sections from './components/Sections'
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <div className="relative z-10 w-full">
         <Header />
         <Sections />
+        <Footerwithmap />
       </div>
     </div>
   )
